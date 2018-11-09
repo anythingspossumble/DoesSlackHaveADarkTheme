@@ -51,6 +51,22 @@ h2, h3, h4, h5, h6 {
     vertical-align: middle;
 }
 
+.question {
+    font-family: 'Lato', sans-serif;
+    font-size: 108px;
+    color: #94a3b5;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.answer {
+    font-family: 'Lato', sans-serif;
+    font-size: 108px;
+    color: #2d333a;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .main {
     font-family: 'Lato', sans-serif;
     font-size: 108px;
@@ -86,7 +102,6 @@ samp {
 }
 
 img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
     background: transparent;
     border: 0px solid rgba(0, 0, 0, 0.12);
     border-radius: 0px;
